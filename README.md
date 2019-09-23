@@ -1,4 +1,4 @@
-# Watermark-Removal
+# Watermark-Removal(Updating...)
 ## pix2pix train/test
 ### Train a model:
 ```
