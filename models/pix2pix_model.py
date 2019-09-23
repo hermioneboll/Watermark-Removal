@@ -48,7 +48,7 @@ class Pix2PixModel(BaseModel):
 
             if opt.lambdaVggContent > 0.0:
                 self.vgg = networks.Vgg16()
-                self.vgg.load_state_dict(torch.load(r'/home/powerop/work/chanlu/watermark/pixel2pixel_pl/vgg16.weight'))
+                self.vgg.load_state_dict(torch.load(r'../vgg16.weight')) # use your own path of vgg16.weight
                 self.vgg.cuda()
 
             # initialize optimizers
